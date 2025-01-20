@@ -5,20 +5,16 @@ const CustomButtons = () => {
     <div className="container">
       <h1 className="text-4xl font-bold">Buttons</h1>
 
-      <Button onClick={() => alert("clicked primary")} className="bg-red-500">
+      <Button onClick={() => alert("clicked primary")} variant={'primary'}>
         Primary
       </Button>
 
-      <Button onClick={() => alert("clicked secondary")} className="bg-red-500">
+      <Button onClick={() => alert("clicked secondary")} variant={'secondary'}>
         Secondary
       </Button>
 
-      <Button onClick={() => alert("clicked outlined")} className="bg-red-500">
+      <Button onClick={() => alert("clicked secondary")} variant={'outlined'}>
         Outlined
-      </Button>
-
-      <Button onClick={() => alert("clicked danger")} className="bg-red-500">
-        Danger
       </Button>
     </div>
   )
