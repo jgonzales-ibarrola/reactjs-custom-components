@@ -5,8 +5,11 @@ const CustomButtons = () => {
     <div className="container">
       <h1 className="text-4xl font-bold">Buttons</h1>
 
-      <Button onClick={() => alert("clicked")}>
+      <Button onClick={() => alert("clicked")} className="bg-red-500">
         Hello
+      </Button>
+      <Button onClick={() => alert("clicked")}>
+        Red
       </Button>
     </div>
   )
